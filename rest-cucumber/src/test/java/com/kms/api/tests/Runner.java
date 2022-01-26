@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "classpath:features",
     glue = {"com.kms.api"},
-    tags = "@product",
+//    tags = {"@Delete","@updateproduct"},
     plugin = {
       "pretty",
       "html:test-output.html",
